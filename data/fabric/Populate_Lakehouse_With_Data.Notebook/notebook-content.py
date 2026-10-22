@@ -12,11 +12,11 @@
 # MARKDOWN ********************
 
 # # Populate Lakehouse_With_Data
-#
+# 
 # Run all cells to create `dbo.sample_orders` with 50 synthetic orders.
 # The OneLake path uses `Workspace_ID` and `Lakehouse_With_Data_ID` from the
 # `Variables` variable library; no default Lakehouse attachment is required.
-#
+# 
 # Rerunning replaces only this sample table, keeping the row count at 50.
 # In the other Lakehouse, create a Tables shortcut to
 # **Lakehouse_With_Data > Tables > dbo > sample_orders**.
