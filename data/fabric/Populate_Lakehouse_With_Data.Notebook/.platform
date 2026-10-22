@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "Populate_Lakehouse_With_Data",
+    "description": "Populate 50 sample orders using Lakehouse IDs from the Variables library."
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f4ee9c85-8a3b-4fda-bb99-5d845a879065"
+  }
+}

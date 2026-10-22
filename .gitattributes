@@ -1,9 +1,5 @@
-# Keep Fabric definitions consistent while preserving binary resources.
+# Normalize hand-authored text while preserving binary resources.
 * text=auto eol=lf
-.platform text
-*.json text
-*.py text
-*.tmdl text
-*.pbir text
-*.pbism text
-*.rdl text
+
+# Preserve Fabric's serialization to avoid false edits after a UI commit.
+data/fabric/** -text
