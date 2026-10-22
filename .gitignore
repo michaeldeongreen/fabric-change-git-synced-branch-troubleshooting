@@ -1,2 +1,9 @@
-.lab/
+# Local credentials and diagnostics; never put a PAT in this repository.
+.env
+.env.*
+!.env.example
 *.log
+
+# Power BI Desktop local settings and data cache, not item definitions.
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
