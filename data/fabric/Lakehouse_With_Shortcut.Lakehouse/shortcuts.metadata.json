@@ -1,0 +1,15 @@
+[
+  {
+    "name": "sample_orders",
+    "path": "/Tables/dbo",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo/sample_orders",
+        "itemId": "dafddee0-06f3-b578-4483-4b58358d4a81",
+        "workspaceId": "00000000-0000-0000-0000-000000000000",
+        "artifactType": "Lakehouse"
+      }
+    }
+  }
+]
